@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset = "UTF-8">
+    <title>CodePencil</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src = "script.js"></script>
+</head>
+
+<body>
+    <h2>Online Code Editor</h2>
+    <div class="container">
+        
+        <div class="input">
+
+                <label><img  src="https://img.icons8.com/color/20/html-5--v1.png" alt="html-5--v1"/>HTML</label>
+                <textarea id="html-code" onkeyup="run()"></textarea>
+
+                <label><img src="https://img.icons8.com/color/20/css3.png" alt="css3"/>CSS</label>
+                <textarea id="css-code" onkeyup="run()"></textarea>
+
+                <label><img src="https://img.icons8.com/color/20/javascript--v1.png" alt="javascript--v1"/>JavaScript</label>
+                <textarea id="js-code" onkeyup="run()"></textarea>
+            
+        </div>
+
+        <div class="output">
+            <label><img src="https://img.icons8.com/fluency/20/pen.png" alt="pen"/>Preview</label>
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+
+</body>
+
+</html>
